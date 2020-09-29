@@ -1,0 +1,151 @@
+
+/* Navbar */
+.navbar-item
+{
+  color: #444;
+    font-size: 13px;
+    font-weight: 700;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  /* padding: 0 10px; */
+}
+
+.navbar-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light"
+}
+
+.navbar
+{
+  background: #382933;
+  padding: 0.1rem 3rem;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 35px;
+}
+
+.navbar-brand
+{
+font-size: 2rem;
+font-family: 'Anton', sans-serif;
+}
+
+/* LOGO  */
+.logo
+{
+width: 60px;
+}
+
+/* Noraml Headings */
+.m-heading
+{
+  text-align: justify;
+  margin-top: 200px;
+  margin-left: 50px;
+font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #035aa6;
+}
+
+.s-heading
+{
+font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  color: #035aa6;
+}
+
+/* About paragraph */
+.about-section{
+  margin-left: 50px;
+  margin-top: 140px;
+  margin-bottom: 80px;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: #035aa6;
+  text-align: left;
+  padding: 0 50%  0 0 ;
+}
+
+/* Horizontal Row */
+hr{
+
+  border-color:  #035aa6;
+  border-bottom: none;
+  width: 70%;
+  border-width: 1.5px;
+  margin-left: 5px;
+}
+
+/* Main Image */
+.gd-pic
+{
+  position: absolute;
+  left: 200px;
+}
+
+/* Body */
+
+body{
+  background-color: #f6d198;
+}
+
+/* Main Heading and Image Animations */
+
+.m-heading {
+  width: 100px;
+  height: 50px;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+
+.div1 {animation-timing-function: Izhar;}
+.div2 {animation-timing-function: Designer;}
+.div3 {animation-timing-function: Work;}
+
+@keyframes mymove {
+  from {left: 0;}
+  to {left: 300px;}
+}
+
+/* Services Section */
+
+.ser-container{
+
+  /* background-image: url('https://picsum.photos/seed/picsum/3000/1000'); */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.ser-heading{
+  margin: 150px auto 60px auto;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.ser-heading:after
+{
+  content: '';
+  background: white;
+  display: block;
+  width: 150px;
+  height: 3px;
+  margin: 10px auto;
+}
+
+h3
+{
+  padding-top: 10px;
+}
+
+.row{
+  margin-left: 5px;
+  margin-right: 5px;
+}
